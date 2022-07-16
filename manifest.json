@@ -1,0 +1,47 @@
+{
+    "name": "Tamil Reader",
+    "version": "1.0",
+    "description": "Learn Tamil the easy way!",
+    "manifest_version": 2,
+    "permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ],
+	"browser_action": {
+		"default_icon": "images/get_started32.png",
+		"default_popup": "background.html"
+	},
+    "background": {
+		"scripts": [
+            "js/jquery.min.js",
+            "js/jquery-ui.min.js",
+            "js/firebase-compat.js",
+            "background.js"        
+        ],
+		"persistent": true
+	},
+    "content_scripts": [
+        {
+            "matches": [
+                "https://tamilkidsstory.com/*",
+                "https://www.valaitamil.com/*",
+                "https://eluthu.com/*"
+            ],
+            "all_frames": true,
+            "js" : [
+                "js/jquery.min.js",
+                "js/jquery-ui.min.js",
+                "js/firebase-compat.js",
+                "content_script.js",
+                "js/lettering.js"
+            ],
+            "css" :[
+                "css/style.css",
+                "css/jquery-ui.min.css"
+            ],
+            "runs_at" : "document_end"
+        }
+    ],
+    "content_security_policy": "script-src 'self'    https://www.gstatic.com/ https://*.firebaseio.com   https://www.googleapis.com https://apis.google.com; object-src   'self'"
+}

@@ -1,0 +1,12 @@
+.highlight {
+    background-color: yellow;
+  }
+
+[class^="word"]:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+[class^="word"] {
+    background-color:yellow ;
+}
