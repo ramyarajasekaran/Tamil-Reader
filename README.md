@@ -4,28 +4,11 @@
 -->
 
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/ramyarajasekaran/Tamil-Reader">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo_transparent.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Tamil Reader</h3>
@@ -63,8 +46,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Tamil Reader][product-screenshot]](https://example.com)
-
+<div style="text-align: center;">
+<img src="images/logo.png" alt="Logo" width="200" height="200">
+</div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -101,12 +85,26 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-![Viewing Tamil text](images/Tamil_Reader_Usage1.png "Viewing Tamil")
-![Looking up words](images/Tamil_Reader_Usage2.png "Looking up words")
+
+<div style="text-align: center;">
+<img src="images/Tamil_Reader_Usage1.png" 
+    alt="Reading Tamil text">
+</img>
+<h4>Read Tamil text</h4>
+</div>
+
+<div style="text-align: center;">
+<img src="images/Tamil_Reader_Usage2.png" 
+    alt="Looking up a word">
+</img>
+<h4>Lookup a word</h4>
+</div>
 
 ### Highlight legend
 All unknown (and new) words are highlighted in BLUE.
+
 All known words are not highlighted.
+
 All words seen before but not yet known are highlighted in YELLOW.
 
 ### Lookup a word
