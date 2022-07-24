@@ -9,7 +9,7 @@
         "https://*/"
     ],
 	"browser_action": {
-		"default_icon": "images/get_started32.png",
+		"default_icon": "images/favicon.png",
 		"default_popup": "background.html"
 	},
     "background": {

@@ -75,13 +75,7 @@ function addPopup(para){
 }
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDeSlFnzC9u6gboHrpgvD2schGIg4TQKEg",
-    authDomain: "tamil-reader.firebaseapp.com",
-    projectId: "tamil-reader",
-    storageBucket: "tamil-reader.appspot.com",
-    messagingSenderId: "508821920207",
-    appId: "1:508821920207:web:1f21f886c117edeca8daba",
-    measurementId: "G-D9CNW7NNT4"
+
 };
 
 // Initialize Firebase
