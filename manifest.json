@@ -17,6 +17,7 @@
             "js/jquery.min.js",
             "js/jquery-ui.min.js",
             "js/firebase-compat.js",
+            "js/axios.min.js",
             "background.js"        
         ],
 		"persistent": true
@@ -26,19 +27,22 @@
             "matches": [
                 "https://tamilkidsstory.com/*",
                 "https://www.valaitamil.com/*",
-                "https://eluthu.com/*"
+                "https://eluthu.com/*",
+                "https://www.bbc.com/tamil/*"
             ],
             "all_frames": true,
             "js" : [
                 "js/jquery.min.js",
                 "js/jquery-ui.min.js",
                 "js/firebase-compat.js",
+                "js/axios.min.js",
                 "content_script.js",
                 "js/lettering.js"
             ],
             "css" :[
                 "css/style.css",
-                "css/jquery-ui.min.css"
+                "css/jquery-ui.min.css",
+                "css/all.min.css"
             ],
             "runs_at" : "document_end"
         }

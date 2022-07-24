@@ -1,12 +1,80 @@
-.highlight {
-    background-color: yellow;
+.popup:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.seen {
+  background-color: lightgoldenrodyellow;
+}
+
+.unknown {
+  background-color: lightblue;
+}
+
+.buttonHiddenView {
+  visibility: hidden;
+  background: #C8C8C8;
+  margin-left: 28px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1000;
+  width: 200px;
+  height: 100px;
+}
+
+.buttonShowView {
+  visibility: visible;
+}
+
+/* Popup container - can be anything you want */
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  background: #C8C8C8;
+  margin-left: 28px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1000;
+  width: 200px;
+  height: 100px;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+}
+
+.fab-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.iconbutton {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #FF4F79;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  background: rgb(63, 144, 171);
+}
+
+.iconbutton i{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height: 100%;
+  color:white;
   }
-
-[class^="word"]:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-[class^="word"] {
-    background-color:yellow ;
-}
