@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<div style="text-align: center;">
+<div align="center">
 <img src="images/logo.png" alt="Logo" width="200" height="200">
 </div>
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -86,18 +86,18 @@
 ## Usage
 
 
-<div style="text-align: center;">
+<div align="center">
+<h4>Read Tamil text</h4>
 <img src="images/Tamil_Reader_Usage1.png" 
     alt="Reading Tamil text">
 </img>
-<h4>Read Tamil text</h4>
 </div>
 
-<div style="text-align: center;">
+<div align="center">
+<h4>Lookup a word</h4>
 <img src="images/Tamil_Reader_Usage2.png" 
     alt="Looking up a word">
 </img>
-<h4>Lookup a word</h4>
 </div>
 
 ### Highlight legend
